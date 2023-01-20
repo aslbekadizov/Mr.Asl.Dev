@@ -23,8 +23,8 @@
   max-width: 1320px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 canvas {
@@ -36,14 +36,10 @@ canvas {
   z-index: -1;
   background: #10141c !important;
 }
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   canvas {
     width: 100%;
     height: 100%;
-  }
-}
-@media (max-width: 500px) {
-  canvas {
     display: none;
   }
 }
@@ -302,12 +298,11 @@ body header .header_medium img {
 }
 @media (max-width: 490px) {
   body header .header_medium {
-    margin-bottom: 0;
-    padding-bottom: 44px;
+    margin-bottom: 44px;
   }
 }
 body header .header_bottom {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 body header .header_bottom .bottom_nav {
   display: flex;
@@ -377,8 +372,12 @@ body header .header_bottom .bottom_nav span a:hover {
 }
 @media (max-width: 500px) {
   body header {
+    height: 270px;
+  }
+}
+@media (max-width: 900px) {
+  body header {
     background: #10141c;
-    height: 250px;
   }
 }
 body section {
